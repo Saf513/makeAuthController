@@ -1,0 +1,18 @@
+{
+    "name": "safia/artisan-command",
+    "description": "Un package Laravel pour générer un AuthController avec Artisan",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Safia\\ArtisanCommand\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "safia"
+        }
+    ],
+    "require": {},
+    "repositories": [{"type": "vcs", "url": "https://github.com/safia/auth-command"}]
+}
