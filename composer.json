@@ -15,7 +15,11 @@
     ],
     "require": {
         "php": ">=8.2",
-        "laravel/framework": "^10.0"
+        "laravel/framework": "^12.0",
+    "safia/artisan-command": "dev-main"
+
+}
+
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
@@ -24,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Safia\\ArtisanCommand\\Providers\\AuthCommandServiceProvider\\"
+                "Safia\\ArtisanCommand\\Providers\\AuthCommandServiceProvider"
             ]
         }
     },
