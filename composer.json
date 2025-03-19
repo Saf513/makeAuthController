@@ -22,6 +22,6 @@
         "mockery/mockery": "^1.4"
     },
     "repositories": [{"type": "vcs", "url": "https://github.com/safia/auth-command"}],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
