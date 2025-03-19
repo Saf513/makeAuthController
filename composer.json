@@ -13,6 +13,15 @@
             "name": "safia"
         }
     ],
-    "require": {},
-    "repositories": [{"type": "vcs", "url": "https://github.com/safia/auth-command"}]
+   "require": {
+        "php": ">=8.2",
+        "another-vendor/package": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4"
+    },
+    "repositories": [{"type": "vcs", "url": "https://github.com/safia/auth-command"}],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
