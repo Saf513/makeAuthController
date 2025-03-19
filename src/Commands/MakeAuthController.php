@@ -1,5 +1,5 @@
 <?php
-namespace TonNamespace\AuthCommand\Commands;
+namespace Safia\ArtisanCommand\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

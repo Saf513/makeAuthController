@@ -1,5 +1,5 @@
 <?php
-namespace TonNamespace\AuthCommand;
+namespace Safia\ArtisanCommand\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use TonNamespace\AuthCommand\Commands\MakeAuthController;
