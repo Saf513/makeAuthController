@@ -15,7 +15,8 @@
     ],
    "require": {
         "php": ">=8.2",
-        "another-vendor/package": "1.*"
+        "laravel/framework": "^10.0"
+        
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
