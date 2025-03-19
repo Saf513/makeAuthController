@@ -15,12 +15,11 @@
     ],
     "require": {
         "php": ">=8.2",
-        "laravel/framework": "^12.0",
-    "safia/artisan-command": "dev-main"
+        "safia/artisan-command": "*"
 
-}
+},
 
-    },
+    
     "require-dev": {
         "phpunit/phpunit": "^9.5",
         "mockery/mockery": "^1.4"
